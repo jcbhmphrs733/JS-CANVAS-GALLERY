@@ -1,0 +1,27 @@
+* {
+  background-color: #04211d;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+#canvas1 {
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 400px;
+  max-width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #04211d;
+  border-radius: 50px;
+
+  /* position: absolute;
+    left: 0;
+    top: 0; */
+}
